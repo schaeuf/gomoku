@@ -1,0 +1,43 @@
+
+static char *menubar = "menu(name = 'menubar',\
+  menu = \
+  [\
+    ['&File', 100, 'Operations affecting the whole program.', \
+      ['&New', 110, 'Start a new game.'],\
+      ['&Open...', 120, 'Open an existing, formerly saved game.'],\
+      ['&Restore...', 130, 'Undo all moves since last saving.'],\
+      [],\
+      ['&Save', 140, 'Save this game.'],\
+      ['Save &as...', 150, 'Save this game with a new name'],\
+      [],\
+      ['&Print', 160, 'Print your board'],\
+      [],\
+      ['&Exit', 170, 'Quit game.']\
+    ],\
+    ['&Suggestion', 200, 'Ask for help.', \
+      ['&Computer', 210, 'Ask the computer (me).'],\
+      ['&Enemy', 220, 'Ask the other party.']\
+    ],\
+    ['&Players', 300, 'Give the players colors', \
+      ['&X', 310, 'Set the species of X.',\
+        ['&Human', 311, 'X should be Human.'],\
+	['&Computer', 312, 'X should be controlled by Computer.'],\
+	['&Network', 313, 'X should be on the Network.']\
+      ],\
+      ['&O', 320, 'Set the species of O.',\
+        ['&Human', 321, 'O should be Human.'],\
+	['&Computer', 322, 'O should be controlled by Computer.'],\
+	['&Network', 323, 'O should be on the Network.']\        
+      ]\
+    ],\
+    ['&Options', 400, 'Configure varoious programparts.',\
+      ['&Computer', 410, 'Enter Parameter for the Computer-Playing-Algarythm.'],\
+      ['&Network', 420, 'Configure your Networkconnection.'],\
+      ['&Application', 430, 'Configure your Application.']\
+    ],\
+    ['&Help', 500, 'Help!', \
+      ['&About', 510, 'About this game.'],\
+      [],\
+      ['&Help', 520, 'Get Help.']\
+    ]\
+  ]).";
